@@ -24,6 +24,11 @@ export const Expert: Store = {
 			{
 				container: 'span.widget-ArticleStatus-statusPointText',
 				text: ['Artikel ist derzeit nicht verfügbar']
+			},
+			{
+				container:
+					'p.tinyMCECSS > span',
+				text: ['Konsolen bereits vergriffen']	
 			}
 		]
 	},
